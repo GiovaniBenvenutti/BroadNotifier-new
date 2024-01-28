@@ -11,3 +11,9 @@ export const environment = {
         vapidKey: "u7WM3UyA4FHySD0ZCf9dpgdXqu9QshcE85kHDIpnpaDcIi_r2UXRaGqWI1hcdTtX2p69WTstqSF2Q0SQ"
     },
   };
+
+  /*
+  
+        vapidKey: "BNZUbV-u7WM3UyA4FHySD0ZCf9dpgdXqu9QshcE85kHDIpnpaDcIi_r2UXRaGqWI1hcdTtX2p69WTstqSF2Q0SQ"
+
+        */
