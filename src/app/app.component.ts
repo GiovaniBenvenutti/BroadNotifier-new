@@ -16,7 +16,7 @@ message:any = null;
 constructor() {}
 ngOnInit(): void {
   this.requestPermission();
-  this.listen();
+  //this.listen();
 }
 requestPermission() {
   const messaging = getMessaging();
@@ -28,11 +28,12 @@ requestPermission() {
          console.log(currentToken);
        } else {
          console.log('No registration token available. Request permission to generate one.');
-       }
+       }    /*
    }).catch((err) => {
-      console.log('An error occurred while retrieving token. ', err);
+      console.log('An error occurred while retrieving token. ', err);   */
   });
 }
+/*
 listen() {
   const messaging = getMessaging();
   onMessage(messaging, (payload) => {
@@ -40,4 +41,5 @@ listen() {
     this.message=payload;
   });
 }
+*/
 }
