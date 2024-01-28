@@ -313,4 +313,12 @@
 
 
   <span>BroadNotifier repositorio "new"</span>
+
+  <div *ngIf="message;">
+    <h1>{{ message.notification.title }}</h1>
+    <h2>{{ message.notification.body }}</h2>
+  </div>
+  <div *ngIf="!message;">
+    No Message Arrived
+  </div>
    
